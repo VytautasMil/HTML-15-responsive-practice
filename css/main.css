@@ -41,3 +41,21 @@
     font-size: 1.3rem;
     text-transform: uppercase;
   }
+  
+  /* services section  ================ */
+  .services {
+    background-color: #fafafa;
+    text-align: center;
+  }
+  .services__title {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  .s-card__icon {
+    font-size: 1.7rem;
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
+  }
+  .s-card__title {
+    font-weight: normal;
+  }
