@@ -1,7 +1,21 @@
-/* Header ============== */
+/* Common  ============== */
 
-.header {
+.section {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  
+  p {
+    line-height: 1.2;
+    color: #777;
+  }
+  
+  /* Header ============== */
+  
+  .header {
     background-color: #fff;
+    position: sticky;
+    top: 0;
   }
   
   .header .container {
@@ -13,4 +27,17 @@
   .logo {
     display: inline-block;
     padding: 1rem 0;
+  }
+  
+  /* Phill section  ================ */
+  .phill__subtitle {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
+  
+  .phill__title {
+    font-size: 1.3rem;
+    text-transform: uppercase;
   }
