@@ -1,8 +1,8 @@
 /* Common  ============== */
 
 .section {
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   
   p {
@@ -27,6 +27,10 @@
   .logo {
     display: inline-block;
     padding: 1rem 0;
+  }
+  
+  .main-nav__item {
+    display: none;
   }
   
   /* Phill section  ================ */
@@ -58,4 +62,37 @@
   }
   .s-card__title {
     font-weight: normal;
+  }
+  
+  /* Responsive  */
+  
+  @media screen and (min-width: 600px) {
+    .main-nav__item {
+      display: inline-block;
+      padding: 0.5em 1em;
+      /* background-color: #f4f4f4; */
+    }
+    .main-nav__burger {
+      display: none;
+    }
+    .services-cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .s-card {
+      flex-basis: 48%;
+      flex-grow: 1;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .phill .container {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+    .s-card {
+      flex-basis: 30%;
+    }
   }
